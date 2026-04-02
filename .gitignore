@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!requirements.txt
+!*.ipynb
+!*.py
+!README.md
+
+# Allow data and Models directories
+!data/
+!Models/
+!data/**
+!Models/**
